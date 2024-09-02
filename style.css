@@ -1,0 +1,193 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+body{
+    background-color: rgb(210, 214, 209);
+}
+/* first section nav bar*/
+
+nav{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+ul{
+    display:flex;
+    justify-content: flex-end;  
+    align-items: center; 
+}
+ul{
+
+    font-size: 25px;
+}
+li{
+    margin-right:15px;
+    color:rgb(187, 194, 201);
+    cursor: pointer;
+    list-style: none;
+
+}
+li:hover{
+    color: white;
+}
+
+
+
+/* second section nav bar*/
+
+
+.searchbardiv{
+    padding: 40px;
+    text-align: center;
+}
+
+
+
+.searchbar{ /*  search bar input tag */
+    padding: 20px;
+    width: 60%;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: larger;
+
+}
+
+
+
+
+/* third section products*/
+
+.products{
+    text-align: center;
+    padding: 20px;
+}
+.o{
+    display: block;
+}
+
+.box{
+    width: 260px;
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+    margin-top: 20px;
+}
+.box img{
+    border-radius: 10px;
+}
+
+.btn{
+    width: 40%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: rgb(4, 226, 4);
+    font-size: large;
+    margin-top: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(15, 180, 15);
+}
+
+.cart{
+    background-color: rgb(11, 195, 241);
+}
+
+.cart:hover{
+    background-color: rgb(27, 159, 192);
+}
+
+
+
+/* fourth section About us */
+
+.about{
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+}
+
+
+
+/* 5th section Contact us */
+
+.Contact{
+    background-color: rgb(10, 52, 71);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    font-size: large;
+    
+
+}
+
+/* 6th section Contact us */
+
+.copywrite{
+
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 20px;
+}
+
+
+ /* Responsive Styles */
+ 
+@media (max-width: 600px) {
+    
+
+    #nav-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        margin-left: 0;
+        
+        
+        background-color: #000000;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    nav ul li {
+        color: white;
+        margin: 10px 0;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
